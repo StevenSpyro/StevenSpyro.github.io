@@ -55,7 +55,7 @@
 }
 
 .linkedin {
-  color: #0077b5;
+  color: #00796b;
 }
 
 .angellist {
@@ -68,7 +68,7 @@
 }
 
 .linkedin:hover {
-  background-color: #0077b5;
+  background-color: #00796b;
 }
 
 .angellist:hover {
@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #a7c4ff repeat;
   position: relative;
 }
 
@@ -559,7 +559,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #003380 !important;
 }
 
 /* .teal {

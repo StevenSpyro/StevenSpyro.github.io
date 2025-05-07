@@ -1,3 +1,63 @@
+/* Navbar Section Styles */
+.navbar-section {
+  background-color: #070a06; /* Dark theme */
+}
+
+.navbar-section .container {
+  padding: 0;  /* Remove extra padding */
+}
+
+.navbar-section .row {
+  margin: 0; /* Remove extra margin */
+  border-bottom: none; /* Remove any border under the logo and YouTube button */
+}
+
+.navbar-section .logo,
+.navbar-section .youtube-icon {
+  margin: 0; /* Remove any default margin */
+}
+
+.navbar-section .logo img,
+.navbar-section .youtube-icon img {
+  margin: 0;  /* Remove extra space around the images */
+}
+
+.navbar-section .nav-link,
+.navbar-section .contactme {
+  margin: 0;  /* Remove unwanted margin on navigation links */
+}
+
+.navbar-section .logo a,
+.navbar-section .youtube-icon a {
+  display: block;  /* Ensure that these elements take up the full height of the container */
+  height: 100%;  /* Ensure proper vertical alignment */
+}
+
+.navbar-section .logo {
+  display: flex;
+  justify-content: flex-start; /* Align logo to the left */
+  align-items: center; /* Vertically center the logo */
+}
+
+.navbar-section .youtube-icon {
+  display: flex;
+  justify-content: flex-end; /* Align YouTube button to the right */
+  align-items: center; /* Vertically center the YouTube button */
+}
+
+.navbar-section .nav-link {
+  display: inline-block;
+  padding: 10px; /* Adjust padding to your liking */
+  text-align: center;
+}
+
+.navbar-section .contactme {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Existing Styles Below */
 .navbar-section {
   background-color: #070a06; /* Dark theme */
 }
@@ -20,10 +80,6 @@
   width: auto;
   height: auto;
   overflow: hidden;
-  /* display: inline-block; */
-  
-  
-  /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
   border: 6px solid rgba(0, 51, 128, 1); 

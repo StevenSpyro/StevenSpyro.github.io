@@ -2,6 +2,11 @@
   background-color: #070a06; /* Dark theme */
 }
 
+.navbar-section .row {
+  border: none; /* Remove the border */
+  padding: 0;   /* Remove any padding */
+}
+
 .nav-link {
   color: #fff;
   margin: 0 10px;

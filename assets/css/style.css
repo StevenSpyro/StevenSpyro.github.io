@@ -235,7 +235,7 @@ nav {
 nav i {
   padding: 0 15px;
   position: relative;
-  top: 5px;
+  top: 0px;
 }
 
 /* main */
@@ -394,7 +394,7 @@ h3 {
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #3850ab; //#24305e
+  border-bottom: 0px solid #3850ab; //#24305e
 }
 
 #intro.section .teal {

@@ -70,6 +70,46 @@
   <meta name="robots" content="index, follow" />
   <!-- Google Site Verification for indexing -->
   <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+
+  <style>
+    /* Remove extra padding or margin */
+    .navbar-section, .navbar-section .container, .navbar-section .row {
+      margin: 0;
+      padding: 0;
+      border: none; /* Ensure no borders around the navbar */
+    }
+
+    /* Make sure logo and YouTube button can expand */
+    .navbar-section .logo,
+    .navbar-section .youtube-icon {
+      margin: 0;
+      padding: 0;
+      width: 100%; /* Ensure they take up full width */
+      display: flex; /* Allow them to align properly */
+    }
+
+    /* Fix alignment of logo and YouTube icon */
+    .navbar-section .logo {
+      justify-content: flex-start; /* Align logo to the left */
+      align-items: center;
+    }
+
+    .navbar-section .youtube-icon {
+      justify-content: flex-end; /* Align YouTube button to the right */
+      align-items: center;
+    }
+
+    /* Make sure the navbar doesn't have any grid layout */
+    .navbar-section .row {
+      display: flex; /* Remove grid structure */
+      justify-content: space-between; /* Make sure elements are spaced out correctly */
+    }
+
+    /* Remove any border or unwanted line under the logo/YouTube container */
+    .navbar-section .row, .navbar-section .logo, .navbar-section .youtube-icon {
+      border-bottom: none;
+    }
+  </style>
 </head>
 
 <body>

@@ -306,7 +306,7 @@ li.logo span {
 }
 
 .container {
-  width: 95%;
+  width: 100%;
 }
 
 h3 {
@@ -340,7 +340,7 @@ h3 {
 }
 
 #intro.section .container {
-  color: white;
+  color: black;
   font-weight: 200;
   left: 0;
   position: absolute;

@@ -4,7 +4,7 @@
 
 .navbar-section .row {
   border: none; /* Remove the border */
-  padding: 20;   /* Remove any padding */
+  padding: 0;   /* Remove any padding */
 }
 
 .nav-link {

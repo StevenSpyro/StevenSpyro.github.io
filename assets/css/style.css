@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar-section {
   background-color: #070a06; /* Dark theme */
 }
@@ -5,6 +10,14 @@
 .navbar-section .row {
   border: none; /* Remove the border */
   padding: 50;   /* Remove any padding */
+}
+
+.navbar-section, 
+.navbar-section .container, 
+.navbar-section .row {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 .nav-link {

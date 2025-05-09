@@ -4,7 +4,7 @@
 
 .navbar-section .row {
   border: none; /* Remove the border */
-  padding: 0;   /* Remove any padding */
+  padding: 50;   /* Remove any padding */
 }
 
 .nav-link {
@@ -661,7 +661,7 @@ small {
   }
   h3, .container {
     position: relative;
-    top: 64px;
+    top: 0px;
   }
   section#intro {
     margin-bottom: -64px;
@@ -709,6 +709,6 @@ small {
     margin: 0 auto;
   }
   #intro.section {
-    background-position-x: 30%;
+    background-position-x: 0%;
   }
 }

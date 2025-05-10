@@ -270,6 +270,9 @@
     </div>
   </div>
 </div>
+
+<!-- SlideShow>
+  <div class="background-slideshow"></div>
     
     <!-- First Section: Heading lines and image -->
     <section id="intro" class="section scrollspy full-height">
@@ -1101,6 +1104,27 @@ of each drug container to estimate the degradation of the drug.
       })
     })
   </script>
+
+  <script>
+  const images = [
+    "/assets/img/SLogo.jpg", 
+    "/assets/img/ASqurrelyStory.png",
+    "/assets/img/TOWER.png"
+  ];
+
+  let index = 0;
+  const slideshow = document.querySelector(".background-slideshow");
+
+  function changeBackground() {
+    slideshow.style.backgroundImage = `url('${images[index]}')`;
+    index = (index + 1) % images.length;
+  }
+
+  // Initialize and repeat every 5 seconds
+  changeBackground();
+  setInterval(changeBackground, 5000);
+</script>
+  
 </body>
 
 </html>
